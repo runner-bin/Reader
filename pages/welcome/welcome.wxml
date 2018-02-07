@@ -1,0 +1,6 @@
+<view class='container'>
+  <text>Hello,徐斌</text>
+  <view class='btn' bindtap='onTap'>
+    <text class='moto'>Discover</text>
+  </view>
+</view>

@@ -1,0 +1,15 @@
+{
+  "pages":[  
+    "pages/posts/posts",
+    "pages/posts/post-detail/post-detail",
+    "pages/welcome/welcome"
+    
+    
+     
+  ],
+  "window":{
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText":"python手册"
+  }
+}

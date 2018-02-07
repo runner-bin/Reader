@@ -1,0 +1,13 @@
+/**app.wxss**/
+.btn{
+  width: 200rpx;
+  height: 80rpx;
+  border-radius: 5px;
+  border: 1px solid #405f80;
+  text-align: center;
+} 
+text{
+  font-size: 24rpx;
+  font-weight: bold;
+  font-family: MicroSoft YaHei;
+}

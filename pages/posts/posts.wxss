@@ -1,0 +1,24 @@
+@import "post-item/post-item-template.wxss";
+
+swiper{
+  width: 100%;
+  height:500rpx;
+}
+swiper-item image{
+  width: 100%;
+  height:500rpx;
+}
+page{
+  background-color: #fff
+}
+.float-navigate{
+    position: fixed;
+    right: 0rpx;
+    top: 500rpx;
+    width:45rpx;
+    height: 45rpx;
+    border-radius: 50%;
+}
+.float-navigate-none{
+    display: none;
+}

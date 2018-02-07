@@ -1,0 +1,19 @@
+<import src="post-item/post-item-template.wxml"/>
+<import src="post-banner/post-banner.wxml"/>
+<view>
+    <swiper indicator-dots="true" autoplay="true" interval="2000" circular="true" vertical="{{false}}">
+        <swiper-item wx:for="{{posts_key}}" catchtap='onSwiperTap' wx:key="item" data-postId='{{item.postId}}'>
+            <template is="banner" data="{{item}}"/>
+        </swiper-item>             
+    </swiper>
+
+    <view class="float-navigate" catchtap='onFloatMusicTap' style='background-color:{{g_isPlayingMusic?"rgba(255,255,255,0.1)":"#fff"}};'>
+        <image></image>
+    </view>
+
+    <block wx:for="{{posts_key}}" wx:key="item">
+      <view catchtap='onPostTap'data-postId="{{item.postId}}">
+        <template is="postItem" data="{{item}}"/>
+      </view>     
+    </block>
+</view>
